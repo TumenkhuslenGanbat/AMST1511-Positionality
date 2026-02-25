@@ -1,0 +1,117 @@
+body {
+    background-color: #FFE3EA;
+    color: #483C32;
+    text-align: center;
+    font-family: Georgia, serif;
+    padding-top: 100px;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 60px;
+}
+#octopus-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+}
+
+#navbar {
+    background-color: #483C32;
+    padding: 15px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav-title {
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin: 30px auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #483C32;
+}
+
+.hotspot {
+    position: absolute;
+    background-color: rgba(199, 125, 255, 0.4);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+.hotspot:hover {
+    background-color: rgba(199, 125, 255, 0.7);
+    box-shadow: 0 0 15px rgba(199, 125, 255, 0.8);
+}
+
+#spot1 { top: 370px; left: 40px; }
+#spot2 { top: 420px; left: 130px; }
+#spot3 { top: 450px; left: 220px; }
+#spot4 { top: 420px; left: 310px; }
+#spot5 { top: 370px; left: 390px; }
+#spot6 { top: 300px; left: 430px; }
+#spot7 { top: 200px; left: 20px; }
+#spot8 { top: 200px; left: 420px; }
+
+.page {
+    display: none;
+    padding: 50px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#page-identity {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+#page-education {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-family {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-culture {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-travel {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-community {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-intellectual {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}
+
+#page-self {
+    background-color: #FFE3EA;
+    color: #483C32;
+    min-height: 100vh;
+}

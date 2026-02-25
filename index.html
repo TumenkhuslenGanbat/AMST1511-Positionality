@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumi Positionality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <span id="nav-title">Tumi's Positionality</span>
+    </nav>
+    <div id="landing">
+        <h1>Who am I?</h1>
+        <p class="intro-text">I believe I'm a very flexible person who can adapt to any environment. If I had to describe myself with one animal, back home I would have said sheep, but here I wanna say octopus. I think I have a great ability to fit into any community like how an octopus can fit in through any small gaps.</p>        <p>Click tentacle to find out!</p>
+        <div id="octopus-container">
+            <img src="Octopus.png" width="500" height="500">
+
+            <div class="hotspot" id="spot1" onclick="openPage('page-identity')" title="Identity"></div>
+            <div class="hotspot" id="spot2" onclick="openPage('page-education')" title="Education"></div>
+            <div class="hotspot" id="spot3" onclick="openPage('page-family')" title="Family"></div>
+            <div class="hotspot" id="spot4" onclick="openPage('page-culture')" title="Culture"></div>
+            <div class="hotspot" id="spot5" onclick="openPage('page-travel')" title="Travel"></div>
+            <div class="hotspot" id="spot6" onclick="openPage('page-community')" title="Community"></div>
+            <div class="hotspot" id="spot7" onclick="openPage('page-intellectual')" title="Intellectual"></div>
+            <div class="hotspot" id="spot8" onclick="openPage('page-self')" title="The Self"></div>
+        </div>
+    </div>
+    <div id="page-identity" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Identity</h1>
+            <p>Write about yourself here</p>
+    </div>
+
+    <div id="page-education" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Education</h1>
+            <p>Write about your education here</p>
+    </div>
+
+    <div id="page-family" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Family</h1>
+            <p>Write about your family here</p>
+    </div>
+
+    <div id="page-culture" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Culture</h1>
+            <p>Write about your culture here</p>
+    </div>
+
+    <div id="page-travel" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Travel</h1>
+            <p>Write about your travel here</p>
+    </div>
+
+    <div id="page-community" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Community</h1>
+            <p>Write about your community here</p>
+    </div>
+
+    <div id="page-intellectual" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>Intellectual</h1>
+            <p>Write about your intellectual interests here</p>
+    </div>
+
+    <div id="page-self" class="page">
+            <button onclick="goBack()">← Back</button>
+            <h1>The Self</h1>
+            <p>Write about your inner self here</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

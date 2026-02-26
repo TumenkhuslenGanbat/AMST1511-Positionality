@@ -57,7 +57,6 @@ body {
 #spot2 { top: 420px; left: 130px; }
 #spot3 { top: 450px; left: 220px; }
 #spot4 { top: 420px; left: 310px; }
-#spot5 { top: 370px; left: 390px; }
 #spot6 { top: 300px; left: 430px; }
 #spot7 { top: 200px; left: 20px; }
 #spot8 { top: 200px; left: 420px; }
@@ -87,12 +86,6 @@ body {
 }
 
 #page-culture {
-    background-color: #FFE3EA;
-    color: #483C32;
-    min-height: 100vh;
-}
-
-#page-travel {
     background-color: #FFE3EA;
     color: #483C32;
     min-height: 100vh;

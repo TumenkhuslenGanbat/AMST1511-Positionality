@@ -7,67 +7,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="navbar">
-        <span id="nav-title">Tumi's Positionality</span>
-    </nav>
-    <div id="landing">
-        <h1>Who am I?</h1>
-        <p class="intro-text">I believe I'm a deeply flexible person who can adapt to almost any environment. If you had asked me back home what animal best describes me, I would have said a sheep. I was comfortable in the familiar, moving with the crowd I knew. But living abroad changed that. I now see myself as an octopus. Just like an octopus can squeeze through the smallest gaps and blend into any surrounding, I have learned to navigate new communities, cultures, and spaces with ease. No matter where I go, I find a way to belong.</p>        
-        <p>Click tentacle to find out more!</p>
-        <div id="octopus-container">
-            <img src="Octopus.png" width="500" height="500">
+        <nav id="navbar">
+                <span id="nav-title">Tumi's Positionality</span>
+        </nav>
+        <div id="landing">
+                <h1>Who am I?</h1>
+                <p class="intro-text">I believe I'm a deeply flexible person who can adapt to almost any environment. If you had asked me back home what animal best describes me, I would have said a sheep. I was comfortable in the familiar, moving with the crowd I knew. But living abroad changed that. I now see myself as an octopus. Just like an octopus can squeeze through the smallest gaps and blend into any surrounding, I have learned to navigate new communities, cultures, and spaces with ease. No matter where I go, I find a way to belong.</p>        
+                <p>Click tentacle to find out more!</p>
+                <div id="octopus-container">
+                <img src="Octopus.png" width="500" height="500">
 
-            <div class="hotspot" id="spot1" onclick="openPage('page-culture')" title="Culture"></div>
-            <div class="hotspot" id="spot2" onclick="openPage('page-education')" title="Education"></div>
-            <div class="hotspot" id="spot3" onclick="openPage('page-family')" title="Family"></div>
-            <div class="hotspot" id="spot4" onclick="openPage('page-community')" title="Community"></div>
-            <div class="hotspot" id="spot6" onclick="openPage('page-challenges')" title="Challenges"></div>
-            <div class="hotspot" id="spot7" onclick="openPage('page-identity')" title="Identity"></div>
-            <div class="hotspot" id="spot8" onclick="openPage('page-dream')" title="Dream"></div>
+                <div class="hotspot" id="spot1" onclick="openPage('page-culture')" title="Culture"></div>
+                <div class="hotspot" id="spot2" onclick="openPage('page-education')" title="Education"></div>
+                <div class="hotspot" id="spot3" onclick="openPage('page-family')" title="Family"></div>
+                <div class="hotspot" id="spot4" onclick="openPage('page-community')" title="Community"></div>
+                <div class="hotspot" id="spot6" onclick="openPage('page-challenges')" title="Challenges"></div>
+                <div class="hotspot" id="spot7" onclick="openPage('page-identity')" title="Identity"></div>
+                <div class="hotspot" id="spot8" onclick="openPage('page-dream')" title="Dream"></div>
+                </div>
         </div>
-    </div>
-    <div id="page-culture" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Culture</h1>
-            <p>Write about yourself here</p>
-    </div>
+        <div id="page-culture" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Culture</h1>
+                <p class="intro-text">Here is a picture of me in traditional Mongolian clothing called 'Deel', posing in front of one of Mongolia's greatest natural attractions, watching the sunrise with my dad at 6AM.</p>
+                <div class="page-imgs">
+                        <img src="tumiMongolia.jpeg">
+                </div>
+        </div>
 
-    <div id="page-education" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Education</h1>
-            <p>Write about your education here</p>
-    </div>
+        <div id="page-education" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Education</h1>
+                <p class="intro-text">Since I attended an international school with a dual program my whole life, I learned to speak English fluently and take classes in both English and Mongolian. I was fortunate to have access to a higher level of education that exposed me to different languages, cultures, and skills that many others did not have the opportunity to experience.</p>
+                <img src="schoolCollage.jpg" class="page-img">
+        </div>
 
-    <div id="page-family" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Family</h1>
-            <p>Write about your family here</p>
-    </div>
+        <div id="page-family" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Family</h1>
+                <p class="intro-text">Both of my parents are Mongolian, born in rural areas before moving to the capital city during their adolescence. I have an older brother and a younger sister, with a significant age gap between us. Although neither of my parents speaks English, my siblings are fluent, which means I can converse with them in both English and Mongolian. When I share stories about my life in the U.S. with my parents, there are often moments where the language barrier makes it difficult to fully communicate. In those times, being able to turn to my siblings and express myself freely in English is something I truly value.</p>
+        </div>
+        <div id="page-community" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Community</h1>
+                <p class="intro-text">Wherever I go, I feel very lucky to attract good people and build meaningful friendships. Growing up, I was able to make many friends, some very different from me and some very similar. I am grateful to still be close with my childhood friends after all these years. Right now, all of my childhood friends are also studying abroad in different countries around the world. Thanks to them, I am able to learn more about the places they live, the cultures they experience, and the people they meet.</p>
+                <p class="intro-text">Coming to college, I was once again lucky to meet so many good people, including my current roommates who I share an apartment with. We have been close friends since meeting during welcome week. They have helped me so much in adapting to and experiencing life abroad in the U.S. Especially since my family cannot be here to help me navigate the challenges I face, they have stepped in with genuine care and understanding. Coming to the U.S., I have made so many friends from different races, cultures, backgrounds, and walks of life, something I never had the opportunity to experience back in Mongolia. I believe that has greatly helped me expand my horizons and understand the world from a much broader point of view.</p>
+                <div class="page-imgs">
+                        <img src="childhoodFriends.JPG">
+                        <img src="collegeFriends.JPG">
+                </div>
+        </div>
 
-    <div id="page-community" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Community</h1>
-            <p>Write about your culture here</p>
-    </div>
+        <div id="page-challenges" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Challenges</h1>
+                <p class="intro-text">As a first generation student whose parents speak no English, I have had to take care of everything by myself, which is very hard. Back home, I never needed to do any of the things I do now. I was a happy little sheep who grew up in a loving household. However, moving to the U.S. with no prior experience of even travelling abroad, I was at first very brave and excited for whatever was to come, because I had no expectations. After living and attending college in the U.S. for some time, I started enjoying it even more and do not regret anything. But at times I look back and feel like I would never be able to do it again today.</p>
+                <p class="intro-text">I believe I have the ability to adapt and overcome most of the obstacles I face, no matter what. However, one of the times I felt the lowest emotionally was not being able to find a part time job and receiving rejections left and right. One of the most physically draining experiences was moving out of my academic year dorm to a summer dorm, where I had to load all of my belongings onto a cart and pull everything across campus with my suitcase and a huge bean bag on a very hot and windy day all by myself. But after it was all done, I felt very happy and proud of myself.</p>
+                <div class="page-imgs">
+                        <img src="challengePhoto1.JPG">
+                        <img src="challengePhoto2.JPG">
+                </div>
+        </div>
 
-    <div id="page-challenges" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Challenges</h1>
-            <p>Write about your community here</p>
-    </div>
+        <div id="page-identity" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Identity</h1>
+                <p class="intro-text">I was born in Mongolia to an ethnically Mongolian couple. Since I primarily grew up in Ulaanbaatar, the capital city, I did not have the full nomadic cultural experience that Mongolia is known for. Here I have included a photo collage of my childhood, culture, family, friends, and hobbies.</p>
+                <p class="intro-text">The meaning of my name Tumenkhuslen can be translated as 'countless wishes.' The story behind my name varies, but one version my parents often share is that when I was born, many of their wishes came true, and they hoped I would also achieve all of my dreams. I hope to live up to my name and achieve all of my dreams and help others around me achieve their goals in life.</p>
+                <img src="identityCollage.jpeg" class="page-img">
+        </div>
 
-    <div id="page-identity" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Identity</h1>
-            <p>Write about your intellectual interests here</p>
-    </div>
-
-    <div id="page-dream" class="page">
-            <button onclick="goBack()">← Back</button>
-            <h1>Dream</h1>
-            <p>Write about your inner self here</p>
-    </div>
-    
-    <script src="script.js"></script>
+        <div id="page-dream" class="page">
+                <button onclick="goBack()">← Back</button>
+                <h1>Dream</h1>
+                <p class="intro-text">I came here as a sheep with no expectations and became an octopus. So where is the octopus going next? What will the octopus turn into next?</p>
+                <div class="page-imgs">
+                        <img src="FutureVisionBoard.png">
+                </div>
+        </div>
+        
+        <script src="script.js"></script>
 </body>
 </html>
